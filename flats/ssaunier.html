@@ -7,16 +7,16 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="stylesheets/application-b3831aa3.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-b3831aa3.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
 
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo">
+    <img src="images/logo.png" alt="logo">
   </a>
 
   <!-- Right Navigation -->
@@ -55,27 +55,63 @@
 </div>
 
     
-<div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/jbbonin" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/jbbonin" class="img-circle" alt="Jbbonin" />
-</a>          <h2>Jean-Baptiste Bonin</h2>
-          <p>
-<a href="https://github.com/jbbonin" target="_blank">              <i class="fa fa-github"></i> jbbonin
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/TitouMartin" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/TitouMartin" class="img-circle" alt="Titoumartin" />
-</a>          <h2>Titouan Martin</h2>
-          <p>
-<a href="https://github.com/TitouMartin" target="_blank">              <i class="fa fa-github"></i> TitouMartin
-</a>          </p>
-        </li>
-    </ul>
+<!-- Inject flat data in template -->
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12">
+    <div class="city-image" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0, 0, 0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/paris');">
   </div>
+
+  <div class="main-content">
+    <div class="col-xs-12 col-sm-6 col-md-4 user-profile">
+      <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" alt="Ssaunier" />
+      <p>Sebastien's home</p>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4 flat-infos">
+      <h1>Charming room in Montmartre</h1>
+      <p>Paris, France</p>
+
+      <div class="ranking">
+              <i class="fa fa-star good-star"></i><i class="fa fa-star good-star"></i><i class="fa fa-star good-star"></i><i class="fa fa-star good-star"></i><i class="fa fa-star bad-star"></i>
+      </div>
+
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4 form">
+      <form>
+        <h1>Book this flat</h1>
+        <div class="form-group">
+         <input class="form-control form-control-lg" type="text" placeholder="first name">
+         <input class="form-control form-control-lg" type="text" placeholder="last name">
+        </div>
+        <div class="form-group">
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1 guest</option>
+            <option>2 guests</option>
+            <option>3 guests</option>
+          </select>
+        </div>
+        <a href="" class="my-button-form">Book it</a>
+      </form>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="bottom-infos">
+      <div barre></div>
+      <h1>About this flat</h1>
+    </div>
+
+
+  </div>
+
 </div>
+
+
+
+
+
 
     <div class="footer">
   <div class="footer-links">
